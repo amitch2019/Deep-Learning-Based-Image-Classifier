@@ -69,13 +69,13 @@ testloader = torch.utils.data.DataLoader(test_data, batch_size=64)
 validloader = torch.utils.data.DataLoader(validation_data, batch_size=64)
 
 
-# TODO: Define your transforms for the training, validation, and testing sets
+# Transforms defined for the training, validation, and testing sets
 data_transforms = [train_transforms, validation_transforms, test_transforms]
 
-# TODO: Load the datasets with ImageFolder
+# Load the datasets with ImageFolder
 image_datasets = [train_data, validation_data, test_data]
 
-# TODO: Using the image datasets and the trainforms, define the dataloaders
+# Using the image datasets and the trainforms, we define the dataloaders
 dataloaders = [trainloader, validloader, testloader]
 
 
