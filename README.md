@@ -93,3 +93,8 @@ This implementation showcases best practices in deep learning model development,
 git clone https://github.com/yourusername/flower-classifier.git
 cd flower-classifier
 pip install -r requirements.txt
+
+## Sample Output
+
+<img width="1090" alt="image" src="https://github.com/user-attachments/assets/688101af-58be-4eb9-8ecf-18ce894ac8c4">
+
