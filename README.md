@@ -99,6 +99,10 @@ pip install -r requirements.txt
 
 <img width="1090" alt="image" src="https://github.com/user-attachments/assets/688101af-58be-4eb9-8ecf-18ce894ac8c4">
 
+## License
+
+This project is licensed under the MIT License.
+
 Contact
 
 For any questions or inquiries, please contact me at [chaubey.amit@gmail.com].
