@@ -83,46 +83,6 @@ The project is implemented in Python using PyTorch for deep learning. Here's an 
 - Efficient use of PyTorch's capabilities for deep learning
 - Robust error handling for data directory input
 
-## Implementation Details
-
-The project is implemented in Python using PyTorch for deep learning. Following is an overview of the main components:
-
-### Data Preprocessing and Loading
-- Uses `torchvision.transforms` for image augmentation and normalization
-- Implements separate transformation pipelines for training, validation, and testing datasets
-- Utilizes `torchvision.datasets.ImageFolder` for efficient dataset management
-- Creates DataLoader objects for batch processing
-
-### Model Architecture
-- Employs transfer learning using pre-trained models (default: VGG16)
-- Customizes the classifier layer for the specific flower classification task
-- Implements a flexible architecture that allows changing the number of hidden units
-
-### Training Process
-- Supports both GPU and CPU training
-- Uses Cross Entropy Loss as the criterion
-- Implements Stochastic Gradient Descent (SGD) optimizer
-- Features a configurable learning rate and number of epochs
-
-### Command-line Interface
-- Utilizes `argparse` for parsing command-line arguments
-- Allows customization of key hyperparameters:
-  - Data directory
-  - Model architecture
-  - Learning rate
-  - Number of hidden units
-  - Number of epochs
-  - GPU/CPU usage
-
-### Training Loop
-- Implements a standard training loop with validation
-- Prints training loss, validation loss, and validation accuracy at regular intervals
-
-### Key Features
-- Modular design for easy expansion and modification
-- Efficient use of PyTorch's capabilities for deep learning
-- Robust error handling for data directory input
-
 This implementation showcases best practices in deep learning model development, including data preprocessing, transfer learning, and hyperparameter tuning.
 
 This implementation showcases best practices in deep learning model development, including data preprocessing, transfer learning, and hyperparameter tuning.
