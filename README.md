@@ -90,7 +90,7 @@ This implementation showcases best practices in deep learning model development,
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/flower-classifier.git
+git clone https://github.com/amitch2019/flower-classifier.git
 cd flower-classifier
 pip install -r requirements.txt
 ```
